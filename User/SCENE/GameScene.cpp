@@ -109,7 +109,7 @@ void GameScene::Update() {
 		isEffFlag = 1;
 	}
 	else if (input->PushKey(DIK_E)) {
-
+		player_->OnCollision();
 	}
 
 	if (isEffFlag == 1) {
